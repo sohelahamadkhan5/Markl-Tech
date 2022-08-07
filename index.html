@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Quintessential&display=swap"
+        rel="stylesheet">
+    <title>Home -Web Pages</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <section class="logo"><a href="index.html"><strong>Markl</strong> <span id="blue-dot"></span> Tech </a> </section>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About us</a></li> <!--  li>a    -->
+                    <li><a href="index.html#best-seller-section">Best Sellers</a></li>
+                    <li><a href="index.html#newsletter-section">Newsletter</a></li>
+                    <li class="menu-icon"><img src="images/Menu_Icon.png" alt="Menu-Icon"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <picture>
+            <source media="(max-width:576px)" srcset="images/Hero_Mobile.jpg">
+            <source media="(max-width:960px)" srcset="images/Hero_Tablet.jpg">
+            <source media="(max-width:1440px)" srcset="images/Hero_Desktop.jpg">
+            <img src="images/Hero_Large_Desktop.jpg" alt="Hero_image-smart watch">
+          </picture>
+        <div class="hero-content">
+            <div class="container">
+                <h1>Explore our new smart watch series</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pellentesque, nisi id viverra aliquam,
+                    libero ipsum vehicula.</p>
+                <button>See all watches</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="best-seller" id="best-seller-section">
+        <h2>Best Sellers</h2>
+        <hr>
+        <div class="product-slider">
+            <div class="container">
+                <div class="product new">
+                    <div class="product-picture">
+                        <img src="images/Watch_case.jpg" alt="Product: Penom Case">
+                    </div>
+                    <div class="product-info">
+                        <h5 class="categories">Smart Watches, Cases, Apple</h5>
+                        <h4 class="title">Penom Case for Apple Watch</h4>
+                        <h3 class="price">
+                            <span>&#x20B9; 1000</span> 
+                        </h3>
+                        <button>Add to bag</button>
+                    </div>
+                </div>
+                <div class="product new">
+                    <div class="product-picture">
+                        <img src="images/Headphone.jpg" alt="Product: Noise Cancelling Headphone">
+                    </div>
+                    <div class="product-info">
+                        <h5 class="categories">Headphones, Audio, Sound </h5>
+                        <h4 class="title">Noise Cancelling Headphone</h4>
+                        <h3 class="price">
+                            <span>&#x20B9; 2,800</span> 
+                        </h3>
+                        <button>Add to bag</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-picture">
+                        <img src="images/Camera.jpg" alt="Product:Canon Digital SLR EOS Rebel T6">
+                    </div>
+                    <div class="product-info">
+                        <h5 class="categories">Cameras, Kits, Photo & Video </h5>
+                        <h4 class="title">Canon Digital SLR EOS Rebel T6 </h4>
+                        <h3 class="price">
+                            <span class="discounted-price">&#x20B9; 30,000</span> 
+                            <span class="original-price">&#x20B9; 35,783</span>
+                         </h3>
+                        <button>Add to bag</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter" id="newsletter-section">
+        <h3>Newsletter Signup</h3>
+        <p>Subscribe now and don't miss a single deal!</p>
+        <form>
+            <input type="email" name="email" placeholder="Your email...">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="bottom-nav">
+            <div class="container">
+                <ul>
+                    <li class="list-title">Categories</li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Cameras</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Computers</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">About us</li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Stores</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">Social Media</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">Customer Service</li>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Delivery & Returns</a></li>
+                    <li><a href="#">Finance</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-text">
+            2022 &#169; All Rights Reserved 
+        </div>
+    </footer>
+
+</body>
+
+</html>
